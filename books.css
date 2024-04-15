@@ -1,0 +1,217 @@
+<style>  
+ body{     
+  margin: 0;     
+  }      
+  .books{
+    align-items: center;
+    height: 100vh;
+  } 
+  .logo{      
+   width: 100%;      
+    height: 200px;      
+     background-color:#eeeeee;      
+           display: flex;   
+      overflow:hidden;       
+   }  
+     .knop{     
+  font-family: sans-serif;    
+  background:#eeeeee;    
+  margin-top: -100px;   
+  margin-left: 300px;   
+}    
+.class{    
+  position: relative;    
+  width: 590px;    
+  height: 50px;    
+  background-color:#eeeeee;    
+  border-radius: 8px;    
+  font-size: 0;    
+}    
+a{    
+  line-height: 50px;    
+  height: 100%;    
+  font-size: 15px;    
+  display: inline-block;    
+  position: relative;    
+  z-index: 1;    
+  text-decoration: none;    
+  text-transform: uppercase;    
+  text-align: center;    
+  color: #111111;    
+  cursor: pointer;    
+}    
+.animation {    
+  position: absolute;    
+  height: 100%;    
+  top: 0;    
+  z-index: 0;    
+  transition: all .5s ease 0s;    
+  border-radius: 8px;    
+}    
+a:nth-child(1){    
+  width: 100px;    
+}    
+a:nth-child(2){    
+  width: 110px;    
+}    
+a:nth-child(3){    
+  width: 100px;    
+}    
+a:nth-child(4){    
+  width: 160px;    
+}    
+a:nth-child(5){    
+  width: 120px;    
+}    
+.start-home, a:nth-child(1):hover~.animation{    
+  width: 100px;    
+  left: 0;    
+  background-color: #999999;    
+}    
+.start-about, a:nth-child(2):hover~.animation{    
+  width: 110px;    
+  left: 100px;    
+  background-color: #777777;    
+}    
+.start-blog, a:nth-child(3):hover~.animation{    
+  width: 100px;    
+  left: 210px;    
+  background-color: #555555;    
+}    
+.start-portefolio, a:nth-child(4):hover~.animation{    
+  width: 160px;    
+  left: 310px;    
+  background-color: #555555;    
+}    
+.start-contact, a:nth-child(5):hover~.animation{    
+  width: 120px;    
+  left: 470px;    
+  background-color: #999999;    
+}      
+ .contai {       
+            display: flex;  
+            align-items: center       
+        }     
+h3{   
+  margin-top: 70;   
+}   
+.tex{ 
+  margin-left: 700px; 
+} 
+h4{   
+  font-size: 30;   
+  margin-top: -10;   
+}   
+          .book{  
+         display:flex;  
+         justify-content:center;  
+         }  
+        .smallBox{  
+         width:30%;  
+         height:850px;  
+         margin:40px;  
+         overflow: hidden;  
+         }  
+         .dblue{  
+         color:white;  
+         width:30%;  
+         height:850px;  
+         margin:40px;  
+         border-radius: 100px;  
+         }  
+         .dred{  
+       color:white;  
+         width:30%;  
+         margin:40px;  
+         border-radius: 100px;  
+         }  
+         .dpurple{  
+       color:white;  
+         width:30%;  
+         margin:40px;  
+         border-radius: 100px;  
+         }  
+        
+          .dflex{  
+         display:flex;  
+         justify-content: center;  
+         }  
+         .dpink{  
+        color:white;  
+         border-radius: 100px;  
+         }  
+         .dgreen{  
+        color:white;  
+            border-radius: 100px;  
+         }  
+         .dAnuar{  
+    color:white;  
+            border-radius: 100px;  
+         }  
+         img{  
+         height:300px;  
+      }  
+           
+         .w20{  
+         width:50%;  
+         text-align: center;  
+         }  
+         .w20:hover{  
+         background-color:#CFCBC8;  
+         transition: 1s;  
+         box-shadow: 0 0 20px 20px grey;  
+         }  
+         h1{  
+          color: black;  
+         }  
+         h2{  
+            font-weight: 100;  
+            color: black;  
+         }  
+         .leg{  
+  width:100%;  
+  height: 100px;  
+  background-color:#9E9B98; top: 200px;
+}  
+.cube{
+  position: absolute;
+ width: 50px;
+ height: 50px;
+  transform-style: preserve-3d;
+  transform: rotateX(15deg) rotateY(15deg);
+}
+.face{
+  position: absolute;
+width: 50px;
+ height: 50px;
+ opacity: 0.9;
+}
+.right{
+  background-color: #ade8f4;
+  left: 25px;
+  transform: rotateY(90deg)
+}
+.left{
+  background-color: #ade8f4;
+  left: -25px;
+  transform: rotateY(90deg)
+}
+.bottom{
+  background-color: #48cae4;
+  top: 25px;
+  transform: rotateX(90deg)
+}
+.front{
+  background-color: #48cae4;
+top: -25px;
+  transform: rotateX(90deg)
+}
+.top{
+  background-color: #caf0f8;
+  transform: rotateZ(90deg)
+}
+.back{
+  background-color: #caf0f8;
+  transform: rotateZ(90deg)
+}
+        </style>  
